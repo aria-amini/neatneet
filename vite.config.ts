@@ -135,7 +135,7 @@ const lint = {
 			},
 		},
 		{
-			files: ['scripts/**', '**/*.server.ts'],
+			files: ['mise-tasks/**', '**/*.server.ts'],
 			rules: {
 				'no-console': 'off',
 			},

@@ -20,8 +20,9 @@ template.
 
 ## Local development
 
-Use `vp i`, `scripts/setup.ts`, `vp run compose:up`, and `vp run db:migrate` for
-setup. Start the app with `pitchfork start dev`. Open
+Run `mise run bootstrap` to install dependencies, configure the workspace,
+remove orphaned Docker resources, migrate the database, and start the app. Use
+`mise run bootstrap --verbose` for direct command output. Open
 <https://lima.tail6c944a.ts.net:8449> for the current prototype. The registered
 Pitchfork URL is <https://neatneet.dev.ariaamini.com>. That URL requires the
 local Caddy TLS service.
