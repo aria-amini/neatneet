@@ -1,0 +1,4 @@
+[[link]]
+source = ".env.local"
+target = "../neatneet/.env.local"
+required = true

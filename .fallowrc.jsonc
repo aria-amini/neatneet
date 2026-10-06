@@ -1,0 +1,15 @@
+{
+	"ignoreExports": [
+		{
+			"file": "src/components/ui/**",
+			"exports": ["*"],
+		},
+	],
+	// shadcn component library + its support files: reachable only from each
+	// other until an app route imports them
+	"ignorePatterns": ["src/components/ui/**", "src/hooks/use-mobile.ts"],
+	"ignoreDependencies": [
+		// only imported by the fallow-ignored shadcn ui components
+		"@base-ui/react",
+	],
+}

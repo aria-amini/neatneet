@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier; do not edit manually
+_commit: v0.0.34
+_src_path: /home/aria-amini.guest/templates/tanstack
+app_name: neatneet
+google_auth: true
+google_client_id: 226948588184-bb1fpk1qijd3hbdefae19ailjp06825t.apps.googleusercontent.com
+posthog: true
+posthog_project_token: ''
+sentry: true
+sentry_dsn: ''
+sentry_org: aamini-stack
+sentry_project: neatneet
