@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; do not edit manually
-_commit: v0.0.34
+_commit: v0.0.35
 _src_path: /home/aria-amini.guest/templates/tanstack
 app_name: neatneet
 google_auth: true
